@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/styleRaiz.css">
+    <link rel="stylesheet" href="./css/styleDoencas.css">
+    
+</head>
+<body>
+    <main>
+        <h1>Inserir Doenças</h1>
+        <div id="principal">
+            <div class="coluna">
+                <form action="./insere_doenca.php" method="post">
+                    <label>Nome popular da doença</label><input type="text" name="nomePopular"> <br>
+                    <label>Tem cura?</label>
+                    <span><input type="radio" name="temCura" value="true" checked> Sim </span>
+                    <span><input type="radio" name="temCura" value="false"> Não</span>
+                    
+                    <br>
+                    <label>Nome científico</label> <input type="text" name="nomeCientifico"> <br>
+                    <label>Sintomas</label> <textarea name="sintomas" id="" cols="30" rows="8"></textarea> <br>
+                    <br>
+                    <input type="submit" style="font-size: 17px;">
+                </form>
+                
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
