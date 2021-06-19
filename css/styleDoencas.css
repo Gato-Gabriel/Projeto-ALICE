@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("../imgs/medicosFundo2.jpg");
+}
+main {
+    background-color: hsla(112, 84%, 66%, 0.9);
+    margin: 60px 0px;
+    display: flex;
+    flex-direction: column;
+}
+main h1 {
+    margin: 10px 0px 20px 0px;
+    align-self: center;
+}
+#principal {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 470px;
+    justify-content: space-around;
+}
+
+.coluna form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main #principal .coluna form label {
+    font-size: 20px;
+}
+main #principal .coluna form input {
+    font-size: 16px;
+}
+
+/*   Pesquisa das doenças   */
+#pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 32px;
+    padding-bottom: 18px;
+}
+
+td {
+    font-size: 17px;
+}
+#pesquisa table tr td a {
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+/* Alteração dos registros das doenças */
+#altera main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+    width: 520px;
+    height: 510px;
+}
+#altera main h1 {
+    margin: 8px 0px;
+}
+#altera main form {
+    border: 1px solid black;
+    margin-top: 6px;
+    padding: 16px 26px;
+}
+#altera main form label {
+    font-size: 19px;
+    margin: 3px 0px;
+}
+#altera main form input, #altera main form select {
+    font-size: 15px;
+    margin: 3px 0px;
+}
+#altera main form input[type="submit"]{
+    font-size: 16px;
+    padding: 3px 60px;
+}
+#altera main a{
+    margin-top: 12px;
+}
+
+/* Exclusão dos registros das doenças */
+#confirmaExclusao main {
+    width: 550px;
+    height: 530px;
+}
+#confirmaExclusao main h1 {
+    margin: 8px 0px;
+}
+#confirmaExclusao main form {
+    border: 1px solid black;
+    margin-top: 6px;
+    margin: 6px 60px;
+    padding: 16px 0px 16px 48px;
+}
+#confirmaExclusao main form label {
+    font-size: 19px;
+    margin: 3px 0px;
+}
+#confirmaExclusao main form input, #confirmaExclusao main form select {
+    font-size: 15px;
+    margin: 3px 0px;
+}
+#confirmaExclusao main form input[type="submit"]{
+    font-size: 16px;
+    padding: 3px 60px;
+    margin-top: 8px;
+}
+#confirmaExclusao main a{
+    margin: 12px 0px;
+}

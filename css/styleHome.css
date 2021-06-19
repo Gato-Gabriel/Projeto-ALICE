@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imgs/imagemFundo2.jpg");
+    background-size: cover;  /* Faz com que a imagem cubra todo o fundo da página, independente de sua proporção */
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: skyblue;
+    align-items: center;
+    padding-left: 16px;
+}
+header img {
+    width: 45px;
+    height: 45px;
+}
+header a:link, header a:visited {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 2px;
+}
+header a:hover {
+    color: white;
+}
+header a:active {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 15px 0px;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-items: space-between;
+
+    background-color: hsla(120, 4%, 75%, 0.8);
+    border: 2px dashed gray;
+    padding-top: 30px;
+    width: 700px;
+    height: 400px;
+}
+
+.icones .fileira{
+    display: flex;
+    justify-items: space-around;
+    margin: 9px;
+}
+
+.icones .fileira .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 160px;
+    width: 190px;
+    margin: 5px 25px;
+    border-radius: 17%;
+
+    font-size: 18px;
+}
+.icones .fileira .card img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+
+    justify-self: center;
+    align-self: center;
+}
+
+.icones .fileira .card a{
+    color: black;
+    text-decoration: none;
+    padding-top: 4px;
+}
+.icones .fileira .card a:hover{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.icones .fileira .cardPaciente {
+    background-color: aquamarine;
+    border: 3px blue solid;
+}
+.icones .fileira .cardDoenca {
+    background-color: greenyellow;
+    border: 3px green solid;
+}

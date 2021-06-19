@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    align-self: center;
+    justify-self: center;
+    border: 1px black double;
+}
+
+/* Cabeçalho - Home */
+header{
+    display: flex;
+    align-items: center;
+    width: 98vw;
+
+    height: 55px;
+    padding-left: 20px;
+    background-color: skyblue;
+}
+header img {
+    width: 45px;
+    height: 45px;
+}
+header a:link, header a:visited {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 2px;
+}
+header a:hover {
+    color: white;
+}
+header a:active {
+    color: white;
+}
+
+/* Mensagens do sistema */
+.aviso {
+    display: flex;
+    border: 1px solid black;
+    padding: 15px 5px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.sucesso {
+    display: flex;
+    border: 1px solid green;
+    padding: 18px 8px;
+    background-color: chartreuse;
+    text-align: center;
+}
+.retorna {
+    display: flex;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+
+    text-decoration: none;
+    color: rgb(131, 138, 138);
+    background-color: rgb(196, 243, 119);
+
+    border: 1px solid black;
+    padding: 6px 3px;
+    width: 180px;
+}

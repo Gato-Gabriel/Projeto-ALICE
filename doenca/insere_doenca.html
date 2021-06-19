@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserção de Doenças</title>
+    <link rel="stylesheet" href="../css/styleRaiz.css">
+    <link rel="stylesheet" href="../css/styleDoencas.css">
+    
+</head>
+<body>
+    <header>
+        <img src="../imgs/icone_home.png" alt="">
+        <a href="../conexao/home.html">Home</a>
+    </header>
+    <main>
+        <h1>Inserir Doenças</h1>
+        <div id="principal">
+            <div class="coluna">
+                <form action="./insere_doenca.php" method="post">
+                    <label>Nome popular da doença</label><input type="text" name="nomePopular" maxlength="50" required> <br>
+                    <label>Nome científico</label> <input type="text" name="nomeCientifico" maxlength="50" required> <br>
+                    <label>Tem cura?</label>
+                    <span><input type="radio" name="temCura" value="true" checked> Sim </span>
+                    <span><input type="radio" name="temCura" value="false"> Não</span> <br>
+                    <label>Sintomas</label> <textarea name="sintomas" cols="30" rows="8" maxlength="200" style="font-size: 16px;"></textarea> <br>
+                    
+                    <input type="submit" value="Cadastrar" style="font-size: 17px; padding: 9px 0px;">
+                </form>
+                
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
